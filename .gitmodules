@@ -1,3 +1,6 @@
 [submodule ".vim/plugged/auto-pairs"]
 	path = .vim/plugged/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/ohmyzsh/ohmyzsh.git
