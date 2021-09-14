@@ -49,7 +49,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # Caution: this setting can cause issues with multiline prompts (zsh 5.7.1 and newer seem to work)
@@ -127,4 +127,9 @@ unset __conda_setup
 
 # Path to streampipes cli
 export PATH="/home/daniel/FZI/incubator-streampipes-installer/cli:$PATH"
+# Path to vpn connect
+export PATH="/home/daniel/.vpn:$PATH"
+
+eval $(thefuck --alias)
+
 alias config='/usr/bin/git --git-dir=/home/daniel/.cfg/ --work-tree=/home/daniel'
